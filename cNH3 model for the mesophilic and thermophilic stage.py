@@ -474,4 +474,5 @@ print('Training_data (SVR), R2: %s' % r2_score(y_train, pre_train))
 pre_test = best_svr.predict(rescaledX_test)
 print('Testing_data (SVR), MSE: %s' % mean_squared_error(y_test, pre_test))
 print('Testing_data (SVR), MAE: %s' % mean_absolute_error(y_test, pre_test))
+
 print('Testing_data (SVR), R2: %s' % r2_score(y_test, pre_test))
